@@ -1,0 +1,120 @@
+
+.wrapper{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/dest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+}
+
+#floater{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 23% 23% 23% 23%;
+  margin: 0 auto;
+  text-align: center;
+  grid-gap: 30px;
+  padding: 20px;
+  background-color:;
+  }
+
+/*.cardimg {
+  width: 270px;
+  height: 300px;
+}*/
+
+.cardimg img{
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.cardimg img:hover{
+  width: 98%;
+  height: 192px;
+}
+
+.card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px black;
+  opacity: 93%;
+  width: 300px;
+  height: 500px;
+
+
+}
+
+.cardheading{
+  font-size: 16pt;
+  color: black;
+}
+
+.icons button {
+  font-size:12pt;
+  font-family: monospace;
+  padding: 10px;
+  background-color: ;
+  color: #172c61;
+  font-weight: bold;
+  border-style: none;
+  margin-right: 20px;
+  border: 2px solid #06283B;
+  cursor: pointer;
+}
+
+.icons :hover{
+  background-color: #06283B;
+  color: white;
+}
+button:hover{
+  color: white;
+}
+
+.icons a{
+text-decoration: none;
+}
+.fa{
+  color: #06283B;
+}
+
+@media screen and (max-width:800px){
+
+#floater{
+  display: grid;
+  grid-template-columns: 45% 45%;
+
+  background-color:;
+  width: 100%;
+  }
+
+  .card{
+  display: block;
+  margin-top: 10px;
+  margin: 0 auto;
+  background-color: ;
+  max-width: 400px;
+  }
+
+
+}
+
+
+  @media screen and (max-width:600px){
+
+#floater {
+display: block;
+width: 100%;
+}
+.card{
+margin: 0 auto;
+background-color: ;
+max-width: 400px;
+margin-bottom: 25px;
+}
+
+}
